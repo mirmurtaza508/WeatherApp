@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins','sans-serif';
+    box-sizing: border-box;
+}
+body{
+    background: #222;
+}
+.card{
+    width: 90%;
+    max-width: 490px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+
+}
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.search button{
+    outline: none;
+    border: 0;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search-btn-icon{
+    font-size: 1.5rem;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    width: 50rem;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 1.5rem;
+}
+.weather-icon{
+    margin-top: 3rem;
+    width: 10rem;
+    height: 10rem;
+}
+/* .weather{
+    display: none;
+} */
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.temp{
+    font-size: 5rem;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.city{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col, .col2{
+    display: flex;
+    flex-wrap: wrap;
+}
+p{
+    font-size: 2rem;
+}
+.Wind, .humidity{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.weather{
+    display: none;
+}
+.err-msg{
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    text-align: left;
+    display: none;
+}
+.fetch-data{
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    text-align: left;
+    display: none;
+}
+.empty{
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    text-align: left;
+    display: none;
+}
